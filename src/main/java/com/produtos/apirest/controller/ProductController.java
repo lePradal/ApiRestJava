@@ -1,16 +1,15 @@
-package com.produtos.apirest.resources;
+package com.produtos.apirest.controller;
 
 import com.produtos.apirest.models.Product;
 import com.produtos.apirest.repository.ProductRepository;
 import org.assertj.core.util.Preconditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
 @RequestMapping(value="/api")
-public class ProductResources {
+public class ProductController {
 
     @Autowired
     ProductRepository productRepository;
