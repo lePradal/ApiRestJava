@@ -1,4 +1,4 @@
-package com.produtos.apirest.models;
+package com.apirest.products.models;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

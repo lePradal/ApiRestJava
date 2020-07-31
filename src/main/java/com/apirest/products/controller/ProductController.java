@@ -1,7 +1,7 @@
-package com.produtos.apirest.controller;
+package com.apirest.products.controller;
 
-import com.produtos.apirest.models.Product;
-import com.produtos.apirest.repository.ProductRepository;
+import com.apirest.products.models.Product;
+import com.apirest.products.repository.ProductRepository;
 import org.assertj.core.util.Preconditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

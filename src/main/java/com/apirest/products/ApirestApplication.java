@@ -1,4 +1,4 @@
-package com.produtos.apirest;
+package com.apirest.products;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
